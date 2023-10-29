@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">BERANDA</a></li> 
+            <li><a href="anime.html">SEJARAH</a></li>
+            <li><a href="contact.html">HUBUNGI</a></li>
+            <li><a href="dukungan.html">DUKUNGAN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <b>Website Teori Psikologi</b>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+
+    <div class="search-results" id="search-results">
+        <!-- Hasil pencarian akan ditampilkan di sini -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
